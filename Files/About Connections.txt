@@ -3,10 +3,6 @@ The connections of the LCD are exactly as in the screenshot taken from the Prote
 The VCC pin of the Ultrasonic Sensor is connected to the + tip of the Breadboard, which is supplied with 5v. 
 The GND pin is directly connected to the - tip of the same breadboard.
 
-U. Sensör'ün Trig ucu , STM32'nin B4 bacağında direkt bağlıdır, 
-Echo pini ise birbirine seri bağlı 2 adet 470 ohm'luk dirençler ile GND ye gidiyor, ama bu 2 direncin ortasından
-STM32'nin B3 pinine bir bağlantı yapılıyor. 
-
 The Trig tip of the ultrasonic sensor is directly connected to the B4 leg of the STM32, 
 The Echo pin, on the other hand, goes to GND with 2 x 470 ohm resistors connected in series, and a connection is being made to pin B3 of the 
 STM32 from the middle of these 2 resistors.
